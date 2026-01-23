@@ -75,128 +75,76 @@ Trust erodes slowly
 3️⃣ Availability — “Does it work when needed?”
 
 Availability is business survival.
-
 Mental model
-
 Secure but unusable = still a failure.
-
 Examples:
-
 Exam portal down
-
 Hospital system offline
-
 Ransomware locks files
-
 How availability is protected
-
 Backups
-
 Redundancy
-
 Monitoring
-
 DDoS protection
 
 🔴 Reality check
 Most companies feel availability pain first, not data theft.
 
 🔥 CIA TRIAD INSIGHT (THIS IS INTERVIEW GOLD)
-
 Security is not about maximizing one pillar — it’s about balancing all three.
-
 Maximum confidentiality can kill availability
-
 Maximum availability can weaken confidentiality
-
 Security is trade-offs, not perfection.
-
 PART 3 — WHO ATTACKS SYSTEMS (THREAT ACTORS)
-
 Attacks are not random.
 They are motivated, predictable, and patterned.
-
 Why categorization matters
-
 Because defenses depend on the attacker, not just the attack.
-
 🧑‍💻 Script Kiddies
-
 Low skill
-
 High noise
-
 Use public tools
-
 Defense: Basic hygiene stops them
 
 💰 Cybercriminals
-
 Money-driven
-
 Organized
-
 Scalable attacks
-
 Defense: Monitoring + response speed
 
 🏢 Insiders (MOST DANGEROUS)
-
 Already trusted
-
 Already inside
-
 May be careless or malicious
-
 Defense: Least privilege + logging
 
 📢 Hacktivists
-
 Ideology-driven
-
 Want visibility
-
 Target reputation
-
 Defense: Web security + monitoring
 
 🏛️ Nation-State
-
 Stealthy
-
 Long-term
-
 Strategic goals
-
 Defense: Architecture + layered security
 
 🔑 Pro insight
-
 Security is not about stopping all attackers.
 It’s about limiting impact based on attacker type.
 
 PART 4 — ATTACK VECTORS (HOW THEY GET IN)
-
 Attack vectors are paths, not magic.
-
 Most attacks succeed because:
-
 Humans trust too much
-
 Permissions are excessive
-
 Systems are unpatched
-
 Common vectors
-
 Phishing
-
 Weak passwords
-
 Misconfigurations
-
 Excess access
-
 Unpatched software
 
 🔴 Important truth
@@ -385,4 +333,7 @@ SOC teams use
 
 Architects use
 
-Interviewers test for
+                                                                                                                    23-01-26
+                                                                                                                    
+Learnt about SOC - Security Operations Center (ANALYST)                                                                                                                   
+did some LABS in tryhackme.com

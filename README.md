@@ -337,3 +337,21 @@ Architects use
                                                                                                                     
 Learnt about SOC - Security Operations Center (ANALYST)                                                                                                                   
 did some LABS in tryhackme.com
+
+
+Room: SOC Fundamentals
+
+What was the alert?
+- Example: Suspicious login / malware / phishing
+
+What data did I check?
+- Logs, timestamps, source IP, user context
+
+What decision did I make?
+- True positive / False positive / Needs escalation
+
+Why?
+- Explain in 3–4 lines
+
+What would I do next in a real SOC?
+- Containment / Monitoring / Escalation

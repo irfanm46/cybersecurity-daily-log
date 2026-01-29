@@ -458,3 +458,5 @@ This session is your step into the mindset of a cybersecurity investigator.
 
 
 ##DEEP PATTERN ANALYSIS
+
+##Wireshark can capture the pockets of the target system by getting tcp,dcp,http and some packets 

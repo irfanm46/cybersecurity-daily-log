@@ -464,6 +464,6 @@ This session is your step into the mindset of a cybersecurity investigator.
 ##cyberchef is the tool used for decoding the mails
 
 
-Wireshark?????
+Wireshark????
 
 ##Need to re-watch IM Session 6 - Workshop: Applied Network Security Analysis (30-01-26)

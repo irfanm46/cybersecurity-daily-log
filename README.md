@@ -467,3 +467,6 @@ This session is your step into the mindset of a cybersecurity investigator.
 Wireshark????
 its a tool.to capture pockets.
 ##Need to re-watch IM Session 6 - Workshop: Applied Network Security Analysis (30-01-26)
+
+
+##bcp

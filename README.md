@@ -1,490 +1,224 @@
-# cybersecurity-daily-log
-Daily cybersecurity learning notes
+# Cybersecurity Daily Log & SOC Foundations
 
-## Day 1 – SOC Basics
+This repository documents my hands-on learning and conceptual understanding of cybersecurity, with a strong focus on **Security Operations Center (SOC)** practices, incident analysis, and defensive security thinking.
 
-- Learned what a SOC Analyst does daily
-- Understood alert vs incident difference
-- Explored common log sources
-- Studied basic incident response flow
-- Focused on importance of documentation
-- 
-PART 1 — WHAT CYBERSECURITY ACTUALLY IS (NO BUZZWORDS)
+The content is structured to reflect how SOC analysts reason about security problems in real-world environments.
 
-Most beginners think cybersecurity is about:
-Hackers
-Tools
-Attacks
-That’s wrong.
+---
 
-🔑 Cybersecurity is about protecting trust
+## SOC Foundations – Day 1
+
+### Key Learnings
+- Understood the daily responsibilities of a SOC Analyst (L1)
+- Differentiated between **alerts** and **incidents**
+- Explored common log sources used in SOC environments
+- Studied the basic incident response lifecycle
+- Learned the importance of clear documentation in security operations
+
+---
+
+## What Cybersecurity Actually Is
+
+Cybersecurity is not about tools, exploits, or attackers.
+
+**Cybersecurity is about protecting trust.**
+
 Trust that:
-Money is correct
-Data is private
-Systems work when needed
-If trust breaks → real-world damage happens.
-Everything you studied fits into this single sentence:
-Cybersecurity ensures the right data, is accessed by the right people, at the right time, in the right way.
-Now let’s break the system.
-
-PART 2 — THE CIA TRIAD (THE FOUNDATION OF EVERYTHING)
-
-Think of the CIA Triad as the laws of physics for security.
-Every control, tool, framework exists to protect one or more of these.
-
-1️⃣ Confidentiality — “Who is allowed to see this?”
-This is access control.
-Mental model
-If data is seen by someone who shouldn’t → confidentiality failed.
-Not stolen. Just seen. That’s enough.
-Real examples
-Someone reads your email
-Employee accesses salary records
-Cloud storage exposed publicly
-How professionals enforce it
-Authentication (prove identity)
-Authorization (what you’re allowed to do)
-Encryption (even if stolen, unreadable)
-
-🔴 Common beginner mistake
-Thinking confidentiality = passwords only
-→ In reality, misconfigurations cause more leaks than hacking
-
-2️⃣ Integrity — “Can I trust this data?”
-
-Integrity is about unchanged truth.
-
-Mental model
-If data is modified silently → integrity failed.
-This is subtle but deadly
-Bank balance altered
-Logs edited
-Software modified
-Even 1-bit change = integrity failure.
-How professionals protect integrity
-Hashing (detects changes)
-Digital signatures (prove origin + integrity)
-Logs (who changed what and when)
-
-🔴 Important insight
-Attackers love integrity attacks because:
-Systems still “work”
-Damage is silent
-Trust erodes slowly
-
-3️⃣ Availability — “Does it work when needed?”
-
-Availability is business survival.
-Mental model
-Secure but unusable = still a failure.
-Examples:
-Exam portal down
-Hospital system offline
-Ransomware locks files
-How availability is protected
-Backups
-Redundancy
-Monitoring
-DDoS protection
-
-🔴 Reality check
-Most companies feel availability pain first, not data theft.
-
-🔥 CIA TRIAD INSIGHT (THIS IS INTERVIEW GOLD)
-Security is not about maximizing one pillar — it’s about balancing all three.
-Maximum confidentiality can kill availability
-Maximum availability can weaken confidentiality
-Security is trade-offs, not perfection.
-PART 3 — WHO ATTACKS SYSTEMS (THREAT ACTORS)
-Attacks are not random.
-They are motivated, predictable, and patterned.
-Why categorization matters
-Because defenses depend on the attacker, not just the attack.
-🧑‍💻 Script Kiddies
-Low skill
-High noise
-Use public tools
-Defense: Basic hygiene stops them
+- Financial data is correct  
+- Sensitive data is private  
+- Systems function when needed  
 
-💰 Cybercriminals
-Money-driven
-Organized
-Scalable attacks
-Defense: Monitoring + response speed
+When trust breaks, real-world damage occurs.
 
-🏢 Insiders (MOST DANGEROUS)
-Already trusted
-Already inside
-May be careless or malicious
-Defense: Least privilege + logging
+**Core principle:**  
+Cybersecurity ensures the right data is accessed by the right people, at the right time, in the right way.
 
-📢 Hacktivists
-Ideology-driven
-Want visibility
-Target reputation
-Defense: Web security + monitoring
+---
 
-🏛️ Nation-State
-Stealthy
-Long-term
-Strategic goals
-Defense: Architecture + layered security
+## The CIA Triad – Security Fundamentals
 
-🔑 Pro insight
-Security is not about stopping all attackers.
-It’s about limiting impact based on attacker type.
+The CIA Triad forms the foundation of all security controls and frameworks.
 
-PART 4 — ATTACK VECTORS (HOW THEY GET IN)
-Attack vectors are paths, not magic.
-Most attacks succeed because:
-Humans trust too much
-Permissions are excessive
-Systems are unpatched
-Common vectors
-Phishing
-Weak passwords
-Misconfigurations
-Excess access
-Unpatched software
+### Confidentiality
+- Ensures data is only accessible to authorized entities
+- Enforced through authentication, authorization, and encryption
+- Common failures result from misconfigurations, not hacking
 
-🔴 Important truth
+### Integrity
+- Ensures data remains accurate and unaltered
+- Protected through hashing, digital signatures, and logging
+- Integrity attacks are dangerous because damage can remain unnoticed
 
-Complexity doesn’t cause breaches.
-Neglect does.
+### Availability
+- Ensures systems are operational when required
+- Protected through backups, redundancy, monitoring, and DDoS mitigation
+- Availability failures are often felt before data breaches
 
-PART 5 — DEFENSE-IN-DEPTH (THE CORE STRATEGY)
+**Key Insight:**  
+Security is about balance. Over-prioritizing one pillar can weaken the others.
 
-This is how professionals think.
+---
 
-Mental model
+## Threat Actors – Who Attacks Systems
 
-Assume failure. Plan containment.
+Security defenses depend on **who the attacker is**, not just the technique.
 
-Not:
+### Common Threat Actors
+- **Script Kiddies** – Low skill, high noise
+- **Cybercriminals** – Financially motivated, organized
+- **Insiders** – Trusted users with access (highest risk)
+- **Hacktivists** – Ideology-driven, reputation focused
+- **Nation-State Actors** – Long-term, stealthy, strategic
 
-“This control will never fail”
+**Key Insight:**  
+Security is not about stopping every attacker, but limiting impact based on attacker type.
 
-But:
+---
 
-“When this fails, what stops total damage?”
+## Attack Vectors – How Attacks Begin
 
-Layers typically include
+Attack vectors are not complex magic; they are paths created by neglect.
 
-Network controls
+### Common Vectors
+- Phishing
+- Weak passwords
+- Excessive permissions
+- Misconfigurations
+- Unpatched systems
 
-Identity controls
+**Important Truth:**  
+Complexity doesn’t cause breaches — neglect does.
 
-Application controls
+---
 
-Monitoring
+## Defense in Depth – Core Security Strategy
 
-Backups
+Security controls are designed with failure in mind.
 
-🔑 Key idea
+**Mindset:**  
+Assume breach. Plan containment.
 
-Attackers must pass multiple gates, not one door.
+### Common Layers
+- Network controls
+- Identity and access controls
+- Application security
+- Monitoring and logging
+- Backups and recovery
 
-PART 6 — LEAST PRIVILEGE (DAMAGE CONTROL)
+Attackers must bypass multiple layers, not a single control.
 
-Least Privilege is blast-radius reduction.
+---
 
-Mental model
+## Least Privilege – Damage Control
 
-Assume compromise. Minimize damage.
+Least privilege minimizes the blast radius of compromise.
 
-Examples:
+### Examples
+- Intern ≠ administrator
+- Services ≠ full database access
+- Temporary access ≠ permanent access
 
-Intern ≠ admin
+This single principle protects:
+- Confidentiality
+- Integrity
+- Availability
 
-Service ≠ full database access
+---
 
-Temporary access ≠ permanent
+## Zero Trust – Modern Security Model
 
-🔴 This principle protects
+Zero Trust is a mindset, not a tool.
 
-Confidentiality
+### Core Rules
+- Never trust by default
+- Always verify
+- Assume breach
 
-Integrity
+Identity matters more than network location, especially in cloud and remote environments.
 
-Availability
+---
 
-One concept → protects all three.
+## Cybersecurity Frameworks – Structured Security
 
-PART 7 — ZERO TRUST (MODERN REALITY)
+Frameworks exist to prevent chaos during incidents.
 
-Zero Trust is not a tool.
-It’s a mindset.
+### Universal Security Lifecycle
+1. Identify
+2. Protect
+3. Detect
+4. Respond
+5. Recover
 
-Old model
+### Framework Comparison
+- **NIST** – Risk and lifecycle focused
+- **ISO 27001** – Governance and compliance
+- **CIS Controls** – Practical technical guidance
 
-Inside network = trusted
+Frameworks complement each other rather than compete.
 
-New reality
+---
 
-Cloud
+## Networking – Where Security Actually Happens
 
-Remote work
+Understanding networking is essential for security analysis.
 
-Personal devices
+Attackers exploit protocol behavior, not just vulnerabilities.
 
-Zero Trust rule
+Protocols such as TCP, UDP, DNS, and ICMP are designed for functionality, not security.  
+Security is layered on top through encryption, monitoring, and architecture.
 
-Never trust by default. Always verify.
+---
 
-This means:
+## SOC Investigation Workflow (Practiced)
 
-Identity matters more than location
+Room: **SOC Fundamentals – TryHackMe**
 
-Every request is checked
+### Investigation Questions
+- What triggered the alert?
+- What data was analyzed (logs, IPs, timestamps, user context)?
+- What decision was made?
+  - True Positive
+  - False Positive
+  - Needs Escalation
+- Why was that decision made?
+- What would be the next action in a real SOC?
+  - Containment
+  - Monitoring
+  - Escalation
 
-Breaches are assumed
+---
 
-🔑 Pro insight
+## Network Traffic Forensics – Pre-Read Summary
 
-Zero Trust enforces Defense-in-Depth and Least Privilege continuously.
+Network traffic provides durable evidence even when files or logs are altered.
 
-PART 8 — CYBERSECURITY FRAMEWORKS (HOW ADULTS DO SECURITY)
+### Key Concepts
+- Packets carry metadata, timing, and protocol information
+- Flow analysis reveals behavior patterns over time
+- Signature detection identifies known malicious patterns
+- Packet headers expose inconsistencies and anomalies
 
-Frameworks exist because:
-
-Tools without structure fail
-
-People panic without plans
-
-What frameworks really do
-
-They organize thinking, not tools.
-
-The Universal Lifecycle (MEMORIZE THIS FLOW)
-
-1️⃣ Identify – What matters
-2️⃣ Protect – Reduce risk
-3️⃣ Detect – Notice issues
-4️⃣ Respond – Control damage
-5️⃣ Recover – Restore + improve
-
-This cycle never ends.
-
-NIST vs ISO vs CIS (CLEAR DIFFERENCE)
-
-NIST → Risk & lifecycle thinking
-
-ISO 27001 → Governance & proof
-
-CIS → Practical technical actions
-
-They complement, not compete.
-
-PART 9 — NETWORKING (WHY SECURITY STARTS HERE)
-
-If you don’t understand:
-
-How data moves
-
-How addresses work
-
-How protocols behave
-
-You cannot defend networks.
-
-=Core insight
-
-=Attacks exploit protocol behavior, not just bugs.
-
-TCP, UDP, DNS, ICMP exist for functionality, not security.
-Security is layered on top.
-
-That’s why:
-
-Encryption matters
-
-Monitoring matters
-
-Architecture matters
-
-FINAL MENTAL MODEL (THIS TIES EVERYTHING)
-
-Think like this:
-
-CIA Triad = What to protect
-
-Threat actors = Who attacks
-
-Attack vectors = How they enter
-
-Defense-in-depth = How we survive failure
-
-Least privilege = How we limit damage
-
-Zero Trust = How we remove assumptions
-
-Frameworks = How we stay sane
-
-Networking = Where attacks actually happen
-
-🎓 FINAL TAKEAWAY (READ THIS TWICE)
-
-Cybersecurity is not about hacking systems.
-It is about designing systems that fail safely.
-
-This mindset is what:
-
-SOC teams use
-
-Architects use
-
-                                                                                                                    23-01-26
-                                                                                                                    
-Learnt about SOC - Security Operations Center (ANALYST)                                                                                                                   
-did some LABS in tryhackme.com
-
-
-Room: SOC Fundamentals
-
-What was the alert?
-- Example: Suspicious login / malware / phishing
-
-What data did I check?
-- Logs, timestamps, source IP, user context
-
-What decision did I make?
-- True positive / False positive / Needs escalation
-
-Why?
-- Explain in 3–4 lines
-
-What would I do next in a real SOC?
-- Containment / Monitoring / Escalation
-
-
-## Pre-Read: Network Traffic Forensics Concepts (Becoming a Network Detective)
-🌟 Why This Session Matters
-When a cyber attack happens, one question always comes first:
-
-What actually happened on the network?
-
-Files can be deleted. Logs can be altered. But network traffic leaves traces.
-
-Network forensics is the art of reading those traces.
-
-This session teaches you how security professionals reconstruct digital events by studying network traffic.
-
-📦 Packets Are Digital Evidence
-Every message sent across a network becomes a packet.
-
-Packets carry:
-
-Sender and receiver information
-Timing details
-Protocol details
-Instructions on how data should be handled
-To a normal user, packets are invisible.
-
-To a security analyst, packets are evidence.
-
-By examining packet details, analysts can answer:
-
-Who talked to whom
-What kind of data was exchanged
-Whether communication was normal or suspicious
-🧭 Following the Flow
-Looking at one packet is useful. But looking at many packets together tells the full story.
-
-This is called flow analysis.
-
-A flow shows:
-
-How long communication lasted
-How much data moved
-Which direction data traveled
-Whether the pattern looks normal
-For example:
-
-A short burst of data may be normal browsing. A long silent connection sending data outward may indicate data theft.
-
-Recognizing these patterns is key to network forensics.
-
-🚨 Detecting Known Threat Signatures
-Some attacks follow known patterns.
-
-Certain scans. Certain malware communications. Certain suspicious behaviors.
-
-Security tools look for these known fingerprints, often called signatures.
-
-When traffic matches a known signature, alarms are triggered.
-
-This session helps you understand the logic behind signature detection, not just how tools do it.
-
-🧠 The Hidden Clues Inside Packet Headers
-A packet is like a postal envelope.
-
-The envelope carries:
-
-Sender address
-Receiver address
-Type of delivery
-Sequence numbers
-Control flags
-Inside these header details lie clues.
-
-=Was the sender pretending to be someone else
-=Was the connection completed correctly
-==Was the message fragmented strangely
-=Learning to read headers teaches you to spot inconsistencies that signal attacks.
-
-🧪 What You Will Learn in This Session
-You will understand:
-
-=How traffic flows reveal behavior
-=How signature detection concepts work
-=What metadata exists in network communications
-=How to interpret packet headers for security diagnosis
-=By the end, you will be able to explain why a piece of traffic looks normal or suspicious.
-
-This is a critical skill for security operations and incident response teams.
-
-💭 Before the Session
-Think about this:
-
-If someone secretly copied files from a company, what network traces might appear
-How could you tell normal web browsing from data exfiltration
-Why might attackers try to hide inside normal looking traffic
-Bring these thoughts to class. They will sharpen your investigative mindset.
-
-✨ Closing Thought
+**Analyst Mindset:**  
 Hackers write malicious code. Defenders read malicious traffic.
 
-This session is your step into the mindset of a cybersecurity investigator.
+---
 
+## Tools & Concepts Encountered
+- Wireshark – Network packet analysis
+- CyberChef – Decoding and data transformation
+- Indicators of Compromise (IOC)
+- TTPs – Tactics, Techniques, and Procedures
+- SIEM, EDR, and Firewall integration (lab exposure)
 
-##DEEP PATTERN ANALYSIS
+---
 
-##Wireshark can capture the pockets of the target system by getting tcp,dcp,http and some packets 
+## Final Takeaway
 
-##cyberchef is the tool used for decoding the mails
+Cybersecurity is not about hacking systems.
 
+It is about **designing systems that fail safely**.
 
-Wireshark????
-its a tool.to capture pockets.
-##Need to re-watch IM Session 6 - Workshop: Applied Network Security Analysis (30-01-26)
-
-
-##bcp
-##cloudattack
-#aipowered attack
-#air gap protection
-#cryptographic vulnerablities
-
-#quantum space
-#qubits
-#IBM built some 1000qubit quantum computing device communication
-#quantum computing might overtake ais by 2030
-
-#indicator of compromise - IOC
-#TTP - Tactics, Techniques, procedures 
-
-#strategic, Operational, Tactical Inteligence
-#Long Term threat Perspective
-#Had some lab practices of Automated Integration : SIEM, EDR and Firewall system.
-
-#lockbit 3.0 campign analysis
+This mindset is used by:
+- SOC teams
+- Incident responders
+- Security architects

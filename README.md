@@ -486,3 +486,5 @@ its a tool.to capture pockets.
 #strategic, Operational, Tactical Inteligence
 #Long Term threat Perspective
 #Had some lab practices of Automated Integration : SIEM, EDR and Firewall system.
+
+#lockbit 3.0 campign analysis

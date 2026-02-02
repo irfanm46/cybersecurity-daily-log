@@ -472,3 +472,8 @@ its a tool.to capture pockets.
 ##bcp
 ##cloudattack
 #aipowered attack
+
+#quantum space
+#qubits
+#IBM built some 1000qubit quantum computing device communication
+#quantum computing might overtake ais by 2030

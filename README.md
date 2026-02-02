@@ -482,3 +482,6 @@ its a tool.to capture pockets.
 
 #indicator of compromise - IOC
 #TTP - Tactics, Techniques, procedures 
+
+#strategic, Operational, Tactical Inteligence
+#Long Term threat Perspective

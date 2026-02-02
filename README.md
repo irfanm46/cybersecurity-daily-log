@@ -472,6 +472,8 @@ its a tool.to capture pockets.
 ##bcp
 ##cloudattack
 #aipowered attack
+#air gap protection
+#cryptographic vulnerablities
 
 #quantum space
 #qubits

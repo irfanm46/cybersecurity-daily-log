@@ -479,3 +479,6 @@ its a tool.to capture pockets.
 #qubits
 #IBM built some 1000qubit quantum computing device communication
 #quantum computing might overtake ais by 2030
+
+#indicator of compromise - IOC
+#TTP - Tactics, Techniques, procedures 

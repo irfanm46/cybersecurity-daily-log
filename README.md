@@ -13,7 +13,7 @@ The content is structured to reflect how SOC analysts reason about security prob
 - Differentiated between **alerts** and **incidents**
 - Explored common log sources used in SOC environments
 - Studied the basic incident response lifecycle
-- Learned the importance of clear documentation in security operations
+- Learned the importance of clear documentation in security operations.
 
 ---
 

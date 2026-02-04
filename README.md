@@ -98,7 +98,7 @@ Security controls are designed with failure in mind.
 **Mindset:**  
 Assume breach. Plan containment.
 
-### Common Layers
+### Common Layers:
 - Network controls
 - Identity and access controls
 - Application security

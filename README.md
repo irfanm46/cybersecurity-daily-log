@@ -17,7 +17,7 @@ The content is structured to reflect how SOC analysts reason about security prob
 
 ---
 
-## What Cybersecurity Actually Is
+## What Cybersecurity Actually Is:
 
 Cybersecurity is not about tools, exploits, or attackers.
 

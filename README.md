@@ -6,7 +6,7 @@ The content is structured to reflect how SOC analysts reason about security prob
 
 ---
 
-## SOC Foundations – Day 1
+## SOC Foundations – Day 1:
 
 ### Key Learnings
 - Understood the daily responsibilities of a SOC Analyst (L1)

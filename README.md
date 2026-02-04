@@ -1,4 +1,4 @@
-# Cybersecurity Daily Log & SOC Foundations
+# Cybersecurity Daily Log & SOC Foundations:
 
 This repository documents my hands-on learning and conceptual understanding of cybersecurity, with a strong focus on **Security Operations Center (SOC)** practices, incident analysis, and defensive security thinking.
 

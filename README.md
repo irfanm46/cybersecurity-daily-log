@@ -222,3 +222,54 @@ This mindset is used by:
 - SOC teams
 - Incident responders
 - Security architects
+
+
+Cyber Threat Landscape – Summary Notes
+Role of Threat Intelligence
+• Moves beyond generic alerts to provide actionable, contextual insights
+• Enables proactive defense and informed decision-making
+• Helps organizations focus on threats that are relevant to their environment
+Key Questions Addressed by Threat Intelligence
+• Who is targeting whom?
+– Identifies threat actors based on capability, motivation, geography, and industry focus
+• Why are they targeting?
+– Understands adversary objectives such as financial gain, espionage, disruption, or strategic advantage
+• What capabilities do they use?
+– Maps adversary tools, techniques, and procedures (TTPs) to strengthen detection and defenses
+Benefits
+• Enables proactive defense by anticipating attacker behavior
+• Supports prioritization of security investments based on real-world threats
+Expansion of the Attack Surface
+• Digital transformation increases the number of exploitable entry points
+• Every new technology adoption introduces potential vulnerabilities
+Key Attack Surface Drivers
+• Cloud Adoption
+– New security boundaries and shared responsibility challenges
+• Remote Work
+– Distributed workforce operating outside traditional network perimeters
+• IoT & OT Systems
+– Internet-connected devices with limited built-in security controls
+• Third-Party Dependencies
+– Reliance on external vendors and integration partners
+• Supply Chains
+– Complex ecosystems with inconsistent security postures
+Advanced Persistent Threats (APTs)
+• Represent the most sophisticated category of cyber threats
+• Focus on long-term strategic objectives rather than immediate financial gain
+• Operations often persist undetected for months or years
+Defining Characteristics of APTs
+• Highly Skilled Operators
+– Deep technical expertise, often state-sponsored or well-funded
+• Custom Tooling
+– Bespoke malware and exploits designed to evade detection
+• Patience and Persistence
+– Slow, methodical operations to maintain long-term access
+Strategic Value Focus
+• Targets include intellectual property, classified data, strategic communications, and critical infrastructure
+• Primary goal is long-term political, military, or economic advantage
+• Key distinction: APTs accept higher cost and longer timelines for strategic impact
+Learning Outcomes
+• Understand the evolution of modern cyber threats
+• Differentiate between cybercriminals and nation-state threat actors
+• Identify defining traits of Advanced Persistent Threats
+• Apply strategic context to assess business risk and support executive decision-making

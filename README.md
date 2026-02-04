@@ -212,7 +212,7 @@ Hackers write malicious code. Defenders read malicious traffic.
 
 ---
 
-## Final Takeaway
+## Final Takeaway:
 
 Cybersecurity is not about hacking systems.
 

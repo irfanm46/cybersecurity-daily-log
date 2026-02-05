@@ -114,3 +114,109 @@ Control 3: Encrypted and Authenticated Communication (TLS)
 - These attacks do not require malware
 - Security can be improved by adding validation, segmentation, and encryption
 - Strong security comes from reducing unnecessary trust in the network
+
+
+
+#04-02-2026
+
+# Cybersecurity Fundamentals – Lecture Notes
+
+## Key Cyberattack Techniques and Examples
+
+### IP Spoofing
+- A technique used to hide an attacker’s identity by impersonating another device’s IP address.
+- Commonly enables attacks such as:
+  - Distributed Denial of Service (DDoS)
+  - Man-in-the-Middle (MITM)
+- Although over 25 years old, IP spoofing is still widely used today.
+
+### Ransomware
+- A type of malware that encrypts a victim’s data and demands payment for decryption.
+- Common extortion models include:
+  - Encryption-only attacks
+  - Data theft leading to confidentiality breaches
+  - Public exposure threats (double or triple extortion)
+
+### Advanced Persistent Threats (APT)
+- Long-term, stealthy cyberattacks focused on strategic objectives rather than immediate profit.
+- Attackers may remain undetected for months or years.
+- Often involve custom tools and advanced evasion techniques.
+- Typically associated with geopolitical or strategic goals rather than financial gain.
+
+---
+
+## Modern Cybercrime Ecosystem and the Darknet
+
+- Cybercrime has become highly professionalized with defined roles, including:
+  - Malware developers
+  - Initial access brokers
+  - Attack operators
+  - Money launderers
+- Common services offered include:
+  - Malware-as-a-Service (MaaS)
+  - DDoS-for-hire
+- The darknet, commonly accessed via the Tor browser, is used for:
+  - Selling stolen data and credentials
+  - Distributing malware and exploit kits
+- Cryptocurrencies are widely used for payments due to anonymity:
+  - Transactions on regulated platforms may still be traceable
+
+---
+
+## Cyberattacks on Critical Infrastructure and Geopolitics
+
+- Cyberattacks increasingly target critical infrastructure such as:
+  - Smart grids and power stations
+  - Healthcare systems
+  - Transportation networks
+- Example:
+  - A cyberattack attributed to the United States reportedly disrupted Venezuela’s smart grid, causing widespread power outages.
+- Internet of Things (IoT) devices significantly expand the attack surface:
+  - Often lack proper security controls
+  - Frequently integrated into critical systems
+- Cyberwarfare activities include:
+  - Espionage (information gathering)
+  - Sabotage (disruption or destruction of systems)
+  - Influence operations (spreading misinformation)
+
+---
+
+## Threat Intelligence and Cybersecurity Strategy
+
+- Continuous monitoring of the threat landscape is essential for proactive defense.
+- Threat intelligence helps organizations identify:
+  - Potential attackers
+  - Motivations and objectives
+  - Attack techniques and targets
+- Proactive defense focuses on preventing attacks rather than reacting after damage occurs.
+- Common cybersecurity frameworks include:
+  - NIST
+  - CIS
+  - ISO
+- Web application security is improved by understanding:
+  - OWASP Top 10 vulnerabilities
+
+---
+
+## Important Concepts and Study Topics
+
+- Research well-known hacking communities such as Anonymous.
+- Study historic hackers such as Kevin Mitnick.
+- Understand common cyberattack types:
+  - Ransomware
+  - DDoS
+  - IP spoofing
+  - Advanced Persistent Threats (APTs)
+- Explore:
+  - The role of the darknet in cybercrime
+  - Cybercrime economics and the use of cryptocurrency
+- Learn about risks related to:
+  - IoT devices
+  - Critical infrastructure (e.g., smart grids, medical devices)
+- Apply threat intelligence concepts to improve cybersecurity planning.
+
+---
+
+## Summary
+
+This lecture emphasizes the evolving and sophisticated nature of modern cyber threats. Understanding attack techniques, cybercrime ecosystems, critical infrastructure risks, and threat intelligence is essential for effective cybersecurity defense. Continuous learning and research are necessary to stay informed and prepared.

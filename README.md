@@ -153,7 +153,7 @@ Frameworks exist to prevent chaos during incidents.
 - **NIST** – Risk and lifecycle focused
 - **ISO 27001** – Governance and compliance
 - **CIS Controls** – Practical technical guidance
-
+gets hands on practice. 
 Frameworks complement each other rather than compete.
 
 ---

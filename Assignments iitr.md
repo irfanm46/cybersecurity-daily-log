@@ -214,6 +214,7 @@ Control 3: Encrypted and Authenticated Communication (TLS)
   - IoT devices
   - Critical infrastructure (e.g., smart grids, medical devices)
 - Apply threat intelligence concepts to improve cybersecurity planning.
+- Revised all sesson of animesh, do again 7/2/26
 
 ---
 

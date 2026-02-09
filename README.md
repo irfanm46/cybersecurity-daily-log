@@ -85,6 +85,7 @@ Attack vectors are not complex magic; they are paths created by neglect.
 - Excessive permissions
 - Misconfigurations
 - Unpatched systems
+- Restarting
 
 **Important Truth:**  
 Complexity doesn’t cause breaches — neglect does.

@@ -277,3 +277,5 @@ Learning Outcomes
 • Differentiate between cybercriminals and nation-state threat actors
 • Identify defining traits of Advanced Persistent Threats
 • Apply strategic context to assess business risk and support executive decision-making
+
+- Learn all again (rewind animesha lecture)

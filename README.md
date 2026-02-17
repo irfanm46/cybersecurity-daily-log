@@ -17,7 +17,7 @@ The content is structured to reflect how SOC analysts reason about security prob
 - Studied the basic incident response lifecycle
 - Learned the importance of clear documentation in security operations (do again)
 - Explored common log sources used in SOC environments
-- Read it again.
+- Read it again and again.
 ---
 
 ## What Cybersecurity Actually Is:

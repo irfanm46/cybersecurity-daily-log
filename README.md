@@ -280,3 +280,5 @@ Learning Outcomes
 • Apply strategic context to assess business risk and support executive decision-making
 
 - Learn all again (rewind animesha lecture)
+
+revision 1 , again

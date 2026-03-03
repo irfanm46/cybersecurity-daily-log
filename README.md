@@ -43,7 +43,7 @@ Cybersecurity ensures the right data is accessed by the right people, at the rig
 
 The CIA Triad forms the foundation of all security controls and frameworks.
 
-### Confidentiality
+### Confidentiality:
 - Ensures data is only accessible to authorized entities
 - Enforced through authentication, authorization, and encryption
 - Common failures result from misconfigurations, not hacking

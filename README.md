@@ -16,7 +16,7 @@ The content is structured to reflect how SOC analysts reason about security prob
 - Learned the importance of clear documentation in security operations.
 - Studied the basic incident response lifecycle
 - Learned the importance of clear documentation in security operations (do again)
-- Explored common log sources used in SOC environments 
+- Explored common log sources used in SOC environments.
 - Read it again and again..
 - read it again..
 ---

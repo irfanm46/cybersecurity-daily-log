@@ -33,7 +33,7 @@ Exfiltration: Secret data being sent out of the network. 📤
 
 Redirections: Your computer being sent to a fake website. 🛑
 
-🛠️ What We Will Do
+🛠️ What We Will Do,
 In this session, you will get hands-on experience:
 
 Capture live traffic on your own machine. ⏺️

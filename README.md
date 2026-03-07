@@ -29,7 +29,7 @@ Cybersecurity is not about tools, exploits, or attackers.
 
 Trust that:
 - Financial data is correct.  
-- Sensitive data is private  
+- Sensitive data is private.
 - Systems function when needed  
 
 When trust breaks, real-world damage occurs.

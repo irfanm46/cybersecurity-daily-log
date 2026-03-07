@@ -18,7 +18,7 @@ Think of Wireshark as a microscope for your internet connection. It captures pac
 
 With Wireshark, you can:
 
-Watch a website request happen in real-time. ⚡
+Watch a website request happen in real-time.. ⚡
 
 See "name lookups" (DNS) as your computer finds an address. 📖
 

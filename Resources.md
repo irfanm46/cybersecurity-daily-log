@@ -49,4 +49,4 @@ The Anatomy of a Packet: Looking closely at the headers and "envelope" of a data
 
 Web Request Patterns: Following the specific steps your computer takes to load a webpage. 🚦
 
-Spotting the Attacker: Learning what "abnormal" or suspicious traffic looks like. 🕵️‍♀️
+Spotting the Attacker: Learning what "abnormal" or suspicious traffic looks like..🕵️‍♀️

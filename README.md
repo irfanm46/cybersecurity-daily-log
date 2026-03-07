@@ -28,7 +28,7 @@ Cybersecurity is not about tools, exploits, or attackers.
 **Cybersecurity is about protecting trust.**
 
 Trust that:
-- Financial data is correct  
+- Financial data is correct.  
 - Sensitive data is private  
 - Systems function when needed  
 

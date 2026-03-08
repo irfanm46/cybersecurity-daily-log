@@ -9,7 +9,7 @@ The content is structured to reflect how SOC analysts reason about security prob
 ## SOC Foundations – Day 1:
 
 ### Key Learnings
-- Understood the daily responsibilities of a SOC Analyst (L1).
+- Understood the daily responsibilities of a SOC Analyst (L1)..
 - Differentiated between **alerts** and **incidents**
 - Explored common log sources used in SOC environments
 - Studied the basic incident response lifecycle
